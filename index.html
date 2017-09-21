@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>The Paperman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<style type="text/css">
+  body {
+    text-align: center;
+    font-size: 24px;
+    background: #1D5758;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  .panel-body {
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+
+</style>
+
+  </head>
+  <body>
+ 
+<div class = 'container'>
+	<div class = 'jumbotron'>
+ 		<h1>THE PAPERMAN</h1> 
+ 		<p>Guess the phrase below!</p>
+    <img src="paper.png" width="75" height="75">
+ 	</div>
+
+<div class = "panel panel-default">
+<div class = "panel-heading">
+</div>
+<div class = "panel-body">
+Take a few guesses...
+</div>
+</div>
+ 	
+<div class = "panel panel-default">
+<div class = "panel-body">
+<h2 id = "wordToGuess">_ _ _ _ _ _ _ _ </h2>
+  <hr class="my-4">
+
+</div>
+</div>
+<br>
+
+<div class = "panel panel-default">
+<div class = "panel-body">
+Wrong Guesses: <span id="wrongGuesses"></span>
+<hr class="my-12">
+</div>
+</div>
+
+<div class = "panel panel-default">
+<div class = "panel-body">
+Guesses Left: <span id="numGuesses"></span>
+<hr class="my-12">
+</div>
+</div>
+
+<div class = "panel panel-default">
+<div class = "panel-body">
+Win Counter: <span id="winCounter"></span>
+<hr class="my-12">
+</div>
+</div>
+
+<div class = "panel panel-default">
+<div class = "panel-body">
+Loss Counter: <span id="lossCounter"></span>
+<hr class="my-12">
+</div>
+</div>
+
+</div>
+
+<!--Link to JavaScript-->
+    <script src="Hangman.js"></script>
+
+
+     </script>
+  </body>
+</html>
